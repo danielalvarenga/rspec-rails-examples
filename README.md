@@ -8,6 +8,7 @@ Rails app with examples of how to test with RSpec and other testing gems.
 - [Capybara Examples](#capybara-examples)
 - [Shoulda-Matchers Examples](#shoulda-matchers-examples)
 - [Email-Spec Examples](#email-spec-examples)
+- [Devise Examples](#devise-examples)
 - [RSpec-Expectations Docs](#rspec-expectations-docs)
 - [RSpec-Mocks Specs & Docs](#rspec-mocks-specs--docs)
 - [RSpec-Rails](#rspec-rails)
@@ -29,8 +30,9 @@ Rails app with examples of how to test with RSpec and other testing gems.
 
 Capybara configuration how-to and examples:
 - [spec/support/capybara.rb](spec/support/capybara.rb)
+- [spec/features/home_page_spec.rb](spec/features/home_page_spec.rb)
 - [spec/features/subscribe_to_newsletter_spec.rb](spec/features/subscribe_to_newsletter_spec.rb)
-
+- [spec/features/user_registers_spec.rb](spec/features/user_registers_spec.rb)
 
 # Shoulda-Matchers Examples
 
@@ -47,8 +49,16 @@ The "Subscribe to newsletter" feature was developed with help from [email_spec](
 
 email_spec configuration how-to and examples:
 - [spec/support/email_spec.rb](spec/support/email_spec.rb)
-- [spec/features/subscribe_to_newsletter_spec.rb](spec/features/subscribe_to_newsletter_spec.rb)
 - [spec/mailers/subscription_mailer_spec.rb](spec/mailers/subscription_mailer_spec.rb)
+- [spec/features/subscribe_to_newsletter_spec.rb](spec/features/subscribe_to_newsletter_spec.rb)
+- [spec/features/user_registers_spec.rb](spec/features/user_registers_spec.rb)
+
+
+# Devise Examples
+
+Specs testing registration, sign-in, and other user authentication features provided by Devise:
+
+- [spec/features/user_registers_spec.rb](spec/features/user_registers_spec.rb)
 
 
 # RSpec-Expectations Docs
